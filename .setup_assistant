@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: bubot
+    relative_path: robots/bubot.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/bubot.srdf
+  CONFIG:
+    author_name: Akkharaphong EKSIRI
+    author_email: akkharaphong.e@bu.ac.th
+    generated_timestamp: 1553934498
